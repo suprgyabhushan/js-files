@@ -1,7 +1,7 @@
 if(typeof window["AtKit"] == "undefined"){
 	// Load AtKit
 
-d=document;jf=d.createElement('script');jf.src='https://gitcdn.link/cdn/suprgyabhushan/ab-xblock/4f8b6375cde3c1717e2fabc03246a1188d53ff5f/abxblock/static/js/src/atkit.js';jf.type='text/javascript';jf.id='AtKitLib';d.getElementsByTagName('head')[0].appendChild(jf);
+d=document;jf=d.createElement('script');jf.src='https://cdn.jsdelivr.net/gh/suprgyabhushan/js-files@master/atkit.js';jf.type='text/javascript';jf.id='AtKitLib';d.getElementsByTagName('head')[0].appendChild(jf);
 
 	window.AtKitLoaded = function(){
 		var eventAction = null;
@@ -76,13 +76,13 @@ function __start(){
 
 
 		AtKit.importPlugins(plugins, onLoad);
-		AtKit.addScript('https://gitcdn.xyz/cdn/suprgyabhushan/ab-xblock/630e0578c4234bec3c89617da76a6a2314a2ddf2/abxblock/static/js/src/resize.js', onLoad);
-		AtKit.addScript('https://gitcdn.xyz/cdn/suprgyabhushan/ab-xblock/630e0578c4234bec3c89617da76a6a2314a2ddf2/abxblock/static/js/src/fc.js', onLoad);
-		AtKit.addScript('https://gitcdn.xyz/cdn/suprgyabhushan/ab-xblock/630e0578c4234bec3c89617da76a6a2314a2ddf2/abxblock/static/js/src/lc.js', onLoad);
-		AtKit.addScript('https://gitcdn.xyz/cdn/suprgyabhushan/ab-xblock/630e0578c4234bec3c89617da76a6a2314a2ddf2/abxblock/static/js/src/fontface.js', onLoad);
-		AtKit.addScript('https://gitcdn.xyz/cdn/suprgyabhushan/ab-xblock/630e0578c4234bec3c89617da76a6a2314a2ddf2/abxblock/static/js/src/lineheight.js', onLoad);
-		AtKit.addScript('https://gitcdn.xyz/cdn/suprgyabhushan/ab-xblock/630e0578c4234bec3c89617da76a6a2314a2ddf2/abxblock/static/js/src/bc.js', onLoad);
-		AtKit.addScript('https://gitcdn.xyz/cdn/suprgyabhushan/ab-xblock/630e0578c4234bec3c89617da76a6a2314a2ddf2/abxblock/static/js/src/tts.js', onLoad);
+		AtKit.addScript('https://cdn.jsdelivr.net/gh/suprgyabhushan/js-files@master/resize.js', onLoad);
+		AtKit.addScript('https://cdn.jsdelivr.net/gh/suprgyabhushan/js-files@master/fc.js', onLoad);
+		AtKit.addScript('https://cdn.jsdelivr.net/gh/suprgyabhushan/js-files@master/lc.js', onLoad);
+		AtKit.addScript('https://cdn.jsdelivr.net/gh/suprgyabhushan/js-files@master/fontface.js', onLoad);
+		AtKit.addScript('https://cdn.jsdelivr.net/gh/suprgyabhushan/js-files@master/lineheight.js', onLoad);
+		AtKit.addScript('https://cdn.jsdelivr.net/gh/suprgyabhushan/js-files@master/bc.js', onLoad);
+		AtKit.addScript('https://cdn.jsdelivr.net/gh/suprgyabhushan/js-files@master/tts.js', onLoad);
 
 
 
